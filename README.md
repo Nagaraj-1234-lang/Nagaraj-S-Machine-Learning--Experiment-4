@@ -44,10 +44,8 @@ Logistic function models log-odds; evaluation depends on use-case (class imbalan
 
 
 
-```
-
 ## INPUT
-
+```
 
 # Experiment 4
 import numpy as np
@@ -68,11 +66,11 @@ print('AUC:', roc_auc_score(y,probs))
 fpr, tpr, _ = roc_curve(y, probs)
 plt.plot(fpr,tpr); plt.plot([0,1],[0,1],'--'); plt.xlabel('FPR');
 plt.ylabel('TPR'); plt.title('ROC Curve'); plt.show()
-
+```
 
 ## OUTPUT:
 
-
+```
 Accuracy: 1.0
 Precision: 1.0
 Recall: 1.0
